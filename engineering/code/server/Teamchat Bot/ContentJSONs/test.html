@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Leaderboard</title>
+<style type="text/css">
+html { 
+ <!--- background: url(img/img3.jpg) no-repeat center center fixed; ---->
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3{font-family: Calibri; font-size: 22pt; font-style: normal; font-weight: bold; color:SlateBlue;
+text-align: center; text-decoration: underline }
+table{font-family: Calibri; color:#2BB2E7; font-size: 11pt; font-style: normal;
+text-align:; background-color: #0086CA; border-collapse: collapse; border: 0px solid gray; background-image:url('http://www.dumbelled.com/assests/css/img/pattern.png'); max-width:500px; width:100%; margin-top:1%;}
+table.inner{border: 0px}
+
+
+/*message after submission*/
+.messagediv {
+	
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    width:300px;
+       margin-top: -10%; /*set to a negative number 1/2 of your height*/
+    margin-left: -160px; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    position:fixed;
+    padding:10px;
+ /*end of message after submission*/   
+    
+}
+label.error {
+	color: red;
+}
+input.error, select.error, textbox.error {
+	  border: 1px solid red;
+}
+
+
+</style>
+<script src="jquery-2.1.3.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src ="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+
+</head>
+ 
+<body >
+
+<table align="center" cellpadding = "20px" style="box-shadow:0px 0px 5px #000;">
+
+_leaderboard_data_
+
+</table>
+ 
+
+</body>
+</html>

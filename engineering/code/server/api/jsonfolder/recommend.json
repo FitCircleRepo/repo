@@ -1,0 +1,51 @@
+{
+    "content": {
+        "text": "",
+        "html": "<center><b></b></center>_goal_<br />_plan_<br />A good way to reach your ultimate goal is to set smaller goals in that direction. Why dont you set a goal, just click on \"Set a goal\" at the bottom-left corner of this message!<br />"
+    },
+    "detailsLinkVisibility": "false",
+    "type": "primary",
+    "actionreplace": "true",
+    "sFormName": "DumbelledCircleForm",
+    "detdesc": {
+        "label": "Entries",
+        "showcount": "true",
+        "fields": [
+            {
+                "display": "Name",
+                "key": "key1"
+            },
+            {
+                "display": "Weight",
+                "key": "key3"
+            },
+            {
+                "display": "Height",
+                "key": "key4"
+            },
+            {
+                "display": "Phone Number",
+                "key": "key5"
+            }
+        ]
+    },
+    "actions": {
+        "actitem": [
+            {
+                "button": {
+                    "resptype": "compose",
+                    "displayname": "Reply",
+                    "formjson": "{\"imgUrl\":\"\",\"type\":\"meta\",\"fields\":[{\"type\":\"label\",\"value\":\"Please enter your goal below\",\"name\":\"Please enter your goal below\"},{\"type\":\"label\",\"name\":\"Name\",\"value\":\"I will\"},{\"name\":\"key1\",\"value\":\"\",\"type\":\"input\",\"validator\":[{\"regx\":\".+\",\"emsg\":\"Compulsory Field\"}]}]}",
+                    "label": "Set a Goal",
+                    "respjson": "{ \"action\": \"Enter\", \"maction\": \"\",\"key1\": \"\",\"key2\": \"\",\"key3\": \"\",\"key4\": \"\",\"key5\":\"\", \"formid\": \"\" }"
+                }
+            }
+        ]
+    },
+    "displayname": "My recommendation",
+    "xslt": "primary-2.7.2",
+    "minCrv": "3",
+    "comments": {
+        "addcomment": "false"
+    }
+}

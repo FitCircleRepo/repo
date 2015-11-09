@@ -1,0 +1,178 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+<title>Select Type of Plan</title>
+<style type="text/css">
+html { 
+  <!---background: url(img/img3.jpg) no-repeat center center fixed; --->
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3{font-family: Calibri; font-size: 22pt; font-style: normal; font-weight: bold; color:SlateBlue;
+text-align: center; text-decoration: underline }
+table{font-family: Calibri; color:#2BB2E7; font-size: 11pt; font-style: normal;
+text-align:; background-color: #0086CA; border-collapse: collapse; border: 0px solid gray; background-image:url('http://www.dumbelled.com/assests/css/img/pattern.png'); width:100%; max-width: 600px; margin-top:1%}
+table.inner{border: 0px}
+.box{
+        padding: 10px;
+        display: none;
+        margin-top: 10px;
+
+    }
+/*message after submission*/
+.messagediv {
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    width:300px;
+       margin-top: -10%; /*set to a negative number 1/2 of your height*/
+    margin-left: -160px; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    position:fixed;
+    padding:10px;
+ /*end of message after submission*/   
+    
+}
+
+.error {
+color : red;
+}
+input.error, select.error, textbox.error {
+	  border: 1px solid red;
+}
+
+</style>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script type="text/javascript" src="DumbelledScript.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script src ="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("select").change(function(){
+            $( "select option:selected").each(function(){
+                if($(this).attr("value")==""){
+                    $(".box").hide();
+                    $(".-1").show();
+                }
+                if($(this).attr("value")=="Fi45_Runnerz.html"){
+                    $(".box").hide();
+                    $(".1").show();
+                }
+                if($(this).attr("value")=="Fi45_Fat_Blaster.html"){
+                    $(".box").hide();
+                    $(".2").show();
+                }
+            });
+        }).change();
+        jQuery.extend(jQuery.validator.messages, {
+    	    required: "",
+    	});
+    	$('form').validate({
+    		rules: {
+    			Gender: {required: true}
+    		},
+    		messages:{
+    			Gender: {required: "Please select your gender"}
+    		},
+    		errorPlacement: function(error, element) {
+    		   if (element.attr('type') === 'radio') {
+    		      //error.insertAfter(element.parent().siblings());
+    		      element.parent().parent().append(error)
+    		   }
+    		   else {
+    		      error.insertAfter(element);
+    		   }
+    		},
+            submitHandler: function (form) { // for demo
+                //alert('valid form submitted'); // for demo
+                redirect();
+            }
+        });
+    	
+    });
+    
+    $.cookie("sessionid",querystring("sessionid"));
+    console.log("sessionid "+ $.cookie("sessionid"));
+    
+    function parseURLParameter(val) {
+        var result = "Not found",
+            tmp = [];
+        var items = location.search.substr(1).split("=&");
+        for (var index = 0; index < items.length; index++) {
+            tmp = items[index].split("=");
+            if (tmp[0] === val) result = decodeURIComponent(tmp[1]);
+        }
+        document.getElementById("encemail").value = result;
+        //return result;
+    }
+</script>
+
+
+</head>
+ 
+<body onload="parseURLParameter('sessionid')">
+<form method='POST'>
+  
+<table align='center' cellpadding = '20px' style="box-shadow:0px 0px 5px #000;">
+
+<!----- logo ---------------------------------------------------------->
+<tr>
+<td colspan='2' align='center'>
+<img src='http://fitcircle.in/fitcircle/images/lo.png' />
+</td>
+<td> <input type = 'hidden' name = 'encemail' id = 'encemail'> </td>
+</tr>
+<!----- Form Header ---------------------------------------------------------->
+<tr>
+<td colspan='2' align='center' style='font-size:20px'><b>Select Type of Plan</b></td>
+</tr>
+
+ 
+<!----- -------Select Plan ---------------------------------------------------------->
+<tr><td align="center">
+<div>
+        <select id="selectPage" name='Plan_Name' id='Plan_Name' style='width:100%; max-width:250px; color:#46B8B8' required>
+          <option value="">Select:</option>
+            <option value="Fi45_Runnerz.html?sessionid=">fi45 Runnerz</option>
+            <option value="Fi45_Fat_Blaster.html?sessionid=">fi45 Fat Blaster</option>
+        </select>
+    </div>
+      <div class="-1 box" style="text-align:justify !important">Hey Buddy! Welcome. Let's get a personalized program for you based on your goal and I will help you to make the best choice..
+
+   <br /><br />Sprint or Marathon - Run harder, faster and injury-free with fi45 Runnerz plans.
+
+<br /><br /> Get superb Fat-loss results with dynamic cardio and resistance training with fi45 FatBlaster plans.
+
+
+</div>
+    <div class="1 box" style="text-align:justify">Whether you're training for a 5K or a marathon, fi45 Runnerz will help you achieve your goals with the help of structured training programs with combination of endurance, speed and strength training. So, what are you waiting for? Lets get started !</div>
+    <div class="2 box" style="text-align:justify">Want to slim down and tone up? All you need is your body and this fi45 FatBlaster plan based on Body Weight training &amp; High Intensity Interval Training (HIIT) to blast fat and develop muscle tone from head to toe. </div>
+
+</td></tr>
+ 
+ 
+ 
+ 
+ 
+<!----- Submit ------------------------------------------------------------>
+<tr>
+<td colspan='2' align='center'>
+<div><a href = 'http://fitcircle.in/Pages/PersonalizedPlans'><input type= 'button' value ='Know More' name='knowmore' style = 'width:100px;background-color:#2BB2E7;color:#ffffff;'></a> <input type='submit' value='Submit' name='submit' style = 'width:100px;background-color:#2BB2E7;color:#ffffff;'></div>
+<!--------<div><input type='submit' value='Submit' name='submit'></div>------>
+
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>

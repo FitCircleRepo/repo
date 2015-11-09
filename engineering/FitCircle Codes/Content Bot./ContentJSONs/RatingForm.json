@@ -1,0 +1,44 @@
+{
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": [
+            {
+                "button": {
+                    "formjson": "{\"displayname\":\"Rate Your Day\",\"fields\":[{\"name\":\"Dietlbl\",\"type\":\"label\",\"value\":\"Diet : \"},{\"name\":\"Diet\",\"options\":[{\"val\":\"Skipped Meals, Ate Unhealthy!\"},{\"val\":\"Skipped Meals, Ate Healthy\"},{\"val\":\"Ate after Good Intervals, Ate Unhealthy\"},{\"val\":\"A Bliss! Very Healhy Diet at Regular Intervals\"}],\"type\":\"select\"},{\"name\":\"Stresslbl\",\"type\":\"label\",\"value\":\"Stress : \"},{\"name\":\"Stress\",\"options\":[{\"val\":\"Today was - Aaargh! \"},{\"val\":\"Stressful but Managed it!\"},{\"val\":\"A Little Stressful!\"},{\"val\":\"Completely Chilled Out!\"}],\"type\":\"select\"}],\"imgUrl\":\"\",\"type\":\"meta\"}",
+                    "label": "Rate Your Day",
+                    "respjson": "{\"Diet\":\"\",\"Stress\":\"\",\"action\":\"Reply\",\"formid\":\"\",\"maction\":\"\"}",
+                    "resptype": "compose"
+                }
+            }
+        ]
+    },
+    "comments": {
+        "addcomment": "false"
+    },
+    "content": {
+        "html": "<style>.ratebody{background-color:#F1F1F1;}</style><div class ='activitybody'><img style = 'width:100%;height:25px;' src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' /><b><font style = 'font-size:1.1em;'><center>Rate Your Day - _date_</center></font></b><img style = 'width:100%;height:170px;' src = 'https://s3.amazonaws.com/DealGuardian/internal/frontpage-images/ratings-reviews.png' /><font style = 'color:#2BB2E7;'>Unwind. Rate your day and Win health points!</font> <br /><font style = 'font-size:0.7em;'>Note - Your Ratings are confidential and will not be visible to others</font><br /><font style = 'font-size:0.7em;'>This post will expire at 6 a.m. tomorrow</font></div>",
+        "text": ""
+    },
+    "detailsLinkVisibility": "hidden",
+    "detdesc": {
+        "fields": [
+            {
+                "display": "Diet : ",
+                "key": "Diet"
+            },
+            {
+                "display": "Stress : ",
+                "key": "Stress"
+            }
+        ],
+        "label": "Replies",
+        "showcount": "true"
+    },
+    "displayname": "Rate Your Day",
+    "imgUrl": "",
+    "summdesc": {
+        "fields": []
+    },
+    "type": "primary",
+    "xslt": "primary-2.7.2"
+}

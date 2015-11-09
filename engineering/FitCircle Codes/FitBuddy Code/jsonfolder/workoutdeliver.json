@@ -1,0 +1,75 @@
+{
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": [
+            {
+                "button": {
+                    "deffields": {
+                        "resp": "Prev"
+                    },
+                    "label": "PREV",
+                    "resptype": "sendmsg"
+                }
+            },
+            {
+                "button": {
+                    "deffields": {
+                        "resp": "Next"
+                    },
+                    "label": "NEXT",
+                    "resptype": "sendmsg"
+                }
+            },
+            {
+                "button": {
+                    "deffields": {
+                        "resp": "Stop"
+                    },
+                    "label": "STOP",
+                    "resptype": "sendmsg"
+                }
+            }
+        ]
+    },
+    "comments": {
+        "addcomment": "false"
+    },
+    "content": {
+        "html": "<img style = 'width:100%;height:250px;' src = '_image_' />",
+        "text": ""
+    },
+    "detailsLinkVisibility": "hidden",
+    "detdesc": {
+        "fields": [
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            }
+        ],
+        "label": "Replies",
+        "showcount": "true"
+    },
+    "displayname": "Help",
+    "imgUrl": "",
+    "summdesc": {
+        "fields": []
+    },
+    "type": "primary",
+    "xslt": "primary-2.7.2"
+}

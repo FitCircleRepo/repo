@@ -1,0 +1,16 @@
+{
+    "content": {
+        "text": "",
+        "html": "<html> <head><style>div.reward:hover, div.reward:active {color:White ; font-weight:bold}.rewardbody{background-color: #F1F1F1 ;color: #0A1F14;}.rewardbody table tr td{color: #F1F1F1;text-align: center;font-size: 0.8em;} .rewardbody p{padding:5px 5px;} </style></head> <body style='font-family: helvetica, helvetica, sans-serif;font-size: 10px;line-height: 14px;'><div class ='rewardbody'><img style = 'width:100%;height:25px;' src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' /><img style = 'width:100%;height:200px;' src = 'http://fitcircle.in/fitcircle/images/Fitbuddy/rewardwinner.jpg' /><br /><p>For adopting a healthy lifestyle, consistency is key.<br /><font style = 'color:#2BB2E7;'><b>Sign up to get rewarded for logging your workouts consistently.</b></font></p> <table align='center' width='100%'><tr><td align='center' style='padding: 10px; width:40%;'> <a style='text-decoration:none ! important; color:white; vertical-align:middle;' href='_rewards_details_' target='new'> <div class='reward' style='background-color:#2BB2E7;vertical-align:middle; width:100%; height:25px; padding-top:5px; padding-left:2px; padding-right:5px; '>KNOW MORE</div></a></td><td align='center' style='padding: 10px; width:40%;'><a style='text-decoration:none ! important; color:white; vertical-align:middle;' href='_mojo_page_' target='new'> <div class='reward' style='background-color:#2BB2E7;vertical-align:middle; width:100%; height:25px; padding-top:5px; padding-left:2px; padding-right:5px; '>SIGN UP</div></a></td></tr></table></div></body> </html>"
+    },
+    "type": "primary",
+    "actions": {
+        "actitem": []
+    },
+    "displayname": "Rewards",
+    "xslt": "primary-2.7.2",
+    "minCrv": "3",
+    "comments": {
+        "addcomment": "true"
+    }
+}

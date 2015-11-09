@@ -1,0 +1,95 @@
+{
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": [
+        {
+                "button": {
+                    "deffields": {
+                        "resp": "fittest"
+                    },
+                    "label": "FitTest",
+                    "resptype": "sendmsg"
+                }
+            },	             
+
+      {
+                "button": {
+                    "deffields": {
+                        "resp": "Plan"
+                    },
+                    "label": "Personalized Plan",
+                    "resptype": "sendmsg"
+                }
+            },
+            {
+                "button": {
+                    "deffields": {
+                        "resp": "Nutrition"
+                    },
+                    "label": "Nutrition Advice",
+                    "resptype": "sendmsg"
+                }
+            },
+            {
+                "button": {
+                    "deffields": {
+                        "resp": "Rewards"
+                    },
+                    "label": "Rewards",
+                    "resptype": "sendmsg"
+                }
+            },
+		{
+                "button": {
+                    "deffields": {
+                        "resp": "EditProf"
+                    },
+                    "label": "Edit Profile",
+                    "resptype": "sendmsg"
+                }
+            }
+        ]
+    },
+
+    "comments": {
+        "addcomment": "false"
+    },
+    "content": {
+        "html": "<style>.explorebody{background-color:#F1F1F1;padding:10px 10px;}</style><img style = 'width:100%; height:25px;' src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' /><img style = 'width:100%; height:180px;' src = 'https://ncapac.myherbalife.com/portals/0/12720690_m.jpg' /><div class = 'explorebody'>Please select any one of the options below to try out some cool features!<br /></div>",
+        "text": ""
+    },
+    "detailsLinkVisibility": "hidden",
+    "detdesc": {
+        "fields": [
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            },
+            {
+                "display": "",
+                "key": "resp"
+            }
+        ],
+        "label": "Replies",
+        "showcount": "true"
+    },
+    "displayname": "Explore",
+    "imgUrl": "",
+    "summdesc": {
+        "fields": []
+    },
+    "type": "primary",
+    "xslt": "primary-2.7.2"
+}

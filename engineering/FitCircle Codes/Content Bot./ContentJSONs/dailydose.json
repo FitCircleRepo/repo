@@ -1,0 +1,45 @@
+{
+	"content": {
+	"text": "",
+	"html":"<style>.dailydosebody{background-color:#F1F1F1;}</style><div class ='dailydosebody'><img src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' style = 'width:100%; height:25px;' /><center><font style = 'font-size:1.1em;'><b>Daily Dose - _date_</b></font></center><img src = '_image_link_' style = 'width:100%; height:200px;' /><br /><font style = 'color:#2BB2E7;'>_title_</font><br />_content_<br /><font style = 'font-size:0.7em;'>This post will expire at 6 a.m. tomorrow</font><br /></div>"},
+    "imgUrl": "",
+    "xslt": "primary-2.7.2",
+    "summdesc": {
+        "fields": [
+            {
+                "operation": "Count",
+                "drilldown": "resp",
+                "hidden": "true",
+                "name": "yesno",
+                "display": "Count",
+                "fieldname": "resp"
+            }
+        ]
+    },
+    "detailsLinkVisibility": "all",
+    "queslabel": "Question",
+    "detdesc": {
+        "label": "Replies",
+        "showcount": "true",
+        "fields": [
+            {
+                "display": "Response",
+                "key": "resp"
+            }
+        ]
+    },
+    "type": "primary",
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": [
+            {
+                "yesno": {}
+            }
+        ]
+    },
+    "displayname": "_title_",
+    "minCrv": "3",
+    "comments": {
+        "addcomment": "true"
+    }
+}

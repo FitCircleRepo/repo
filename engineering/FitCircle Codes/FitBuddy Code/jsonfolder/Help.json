@@ -1,0 +1,15 @@
+{
+  "content": {
+	"text": "",
+	"html": "<style>.keywordbody{background-color: #006666;color: #0A1F14;border-radius: 15px;box-shadow: 3px 3px 5px #888888;}.keywordbody table tr td{color: #FFFFFF;text-align: center;font-size: 0.8em;}</style><div class = 'keywordbody'><img style = 'height: 30px; width: 100%; border-radius: 15px 15px 0px 0px;' src = 'http://www.dumbelled.com/fitcircle/images/banners/keywords.jpg' /><table cellpadding='10'> <tr><td colspan = '2'><b>Type these keywords to interact with me:</b></td></tr><tr><td><b>Setup </b></td><td>Setup your profile.</td> </tr><tr><td><b>Dashboard </b></td><td>Manage your profile, get a plan and view progress</td> </tr><tr><td><b>FitTest </b></td><td>Take your FitTest</td> </tr><tr><td><b>Viewplan </b></td> <td>View your current plan</td></tr><tr> <td><b>Stopplan </b></td> <td>Stops the Current Plan</td></tr>  </table></div>"  },
+  "type": "primary",
+  "actions": {
+	"actitem": []
+  },
+  "displayname": "Keywords",
+  "xslt": "primary-2.7.2",
+  "minCrv": "3",
+  "comments": {
+	"addcomment": "true"
+  }
+}

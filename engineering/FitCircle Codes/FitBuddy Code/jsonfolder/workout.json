@@ -1,0 +1,26 @@
+{
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": []
+    },
+    "comments": {
+        "addcomment": "false"
+    },
+    "content": {
+        "html": "<style>.workoutbody{background-color:#F1F1F1; width:100%;}</style><img src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' style = 'width:100%; height:25px;' /><div class = 'workoutbody'><center><b><font style = 'font-size:1.1em'>Workout of the Day</font></b><br /><font style = 'color:#2BB2E7;'>_circuit_name_</font></center><img src = '_image_link_1_' style = 'width:100%; height:150px;' /><b>Exercise 1 - _exercise_name_1_</b></center><br /><font style = 'color:#2BB2E7;'>Instructions :</font>_instructions_1_1_ _instructions_1_2_<img src = '_image_link_2_' style = 'width:100%; height:150px;' /><b>Exercise 2 - _exercise_name_2_</b></center><br /><font style = 'color:#2BB2E7;'>Instructions :</font> _instructions_2_1_ _instructions_2_2_<img src = '_image_link_3_' style = 'width:100%; height:150px;' /><b>Exercise 3 - _exercise_name_3_</b></center><br /><font style = 'color:#2BB2E7;'>Instructions :</font>_instructions_3_1_ _instructions_3_2_<img src = '_image_link_4_' style = 'width:100%; height:150px;' /><b>Exercise 4 - _exercise_name_4_</b></center><br /><font style = 'color:#2BB2E7;'>Instructions :</font>_instructions_4_1_ _instructions_4_2_<img src = '_image_link_5_' style = 'width:100%; height:150px;' /><b>Exercise 5 - _exercise_name_5_</b></center><br /><font style = 'color:#2BB2E7;'>Instructions :</font> _instructions_5_1_ _instructions_5_2_",
+        "text": ""
+    },
+    "detailsLinkVisibility": "hidden",
+    "detdesc": {
+        "fields": [],
+        "label": "Replies",
+        "showcount": "true"
+    },
+    "displayname": "Workout",
+    "imgUrl": "",
+    "summdesc": {
+        "fields": []
+    },
+    "type": "primary",
+    "xslt": "primary-2.7.2"
+}

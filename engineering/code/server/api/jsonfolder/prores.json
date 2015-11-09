@@ -1,0 +1,16 @@
+{
+    "content": {
+        "text": "",
+        "html": "<html> <head><style>div.ex1:hover, div.ex1:active {color:White ; font-weight:bold}.userdashboardbody{background-color: #F1F1F1 ;color: #0A1F14;}.userdashboardbody table tr td{color: #0A1F14;text-align: center;font-size: 0.8em;} .userdashboardbody p{padding: 10px 10px;}</style></head> <body style='font-family: helvetica, helvetica, sans-serif;font-size: 10px;line-height: 14px;'><div class = 'userdashboardbody'><img style = 'width:100%;height:25px;' src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' /><table align='center' width='260px'><tr><td style='text-align:center; color:#2BB2E7;'>Nutrition Consultation</td></tr><tr><td style='text-align:center; color:#2BB2E7;'><h5>Weekly Assessment</h5></td></tr></table><table align='center' width='190px'>_data_</table><br/></div></body> </html>"
+    },
+    "type": "primary",
+    "actions": {
+        "actitem": []
+    },
+    "displayname": "Progress Tracker",
+    "xslt": "primary-2.7.2",
+    "minCrv": "3",
+    "comments": {
+        "addcomment": "false"
+    }
+}

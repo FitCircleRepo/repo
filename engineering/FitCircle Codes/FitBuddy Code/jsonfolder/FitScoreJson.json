@@ -1,0 +1,46 @@
+{
+    "content": {
+        "text": "",
+        "html":"<style>.Fitscorebody{border-radius: 15px; color: #000000; align: center;	width: 100%; background-color: #F1F1F1; color:#0A1F14;}.Fitscorebody, td, tr{font-size: 0.9em;color:#0A1F14;}</style><body><center><div class = 'Fitscorebody'><img style = 'height: 25px; width: 100%;' src = 'http://fitcircle.in/fitcircle/images/fitlo1.png' />Hi _name_, thanks for taking the FitTest!<table cellpadding = '5' cellspacing = '5'><tr><td>Global Rank</td><td style = 'width:70%'><font style = 'color: #2BB2E7;'>_rank_here_ / _out_of_</font></td></tr><tr><td valign = 'top'>FitScore</td><td valign = 'top'><font style = 'color: #2BB2E7;'>_fit_score_ / 100</font></td></tr><tr><td valign ='top'>BMI Score</td><td valign = 'top'><font style = 'color: #2BB2E7;'>_bmi_score_ / 100</font></tr><tr><td valign = 'top'>Endurance Score</td><td valign = 'top'><font style = 'color: #2BB2E7;'>_endurance_score_ / 100</font></td></tr><tr><td valign = 'top'>Strength Score</td><td valign = 'top'><font style = 'color: #2BB2E7;'>_str_score_ / 100</font></td></tr></table><div style='background-color:#2BB2E7;width:70%;font-size:0.9em;padding:2px 2px;'><a href = '_url_' target='_blank' style='text-decoration:none;color:#ffffff;'>How do I read my FitScore?</a></div><br /></div></center></body>"
+    },
+    "imgUrl": "",
+    "xslt": "primary-2.7.2",
+    "summdesc": {
+        "fields": [
+            {
+                "operation": "Count",
+                "drilldown": "resp",
+                "hidden": "true",
+                "name": "yesno",
+                "display": "Count",
+                "fieldname": "resp"
+            }
+        ]
+    },
+    "detailsLinkVisibility": "all",
+    "queslabel": "Question",
+    "detdesc": {
+        "label": "Replies",
+        "showcount": "true",
+        "fields": [
+            {
+                "display": "Response",
+                "key": "resp"
+            }
+        ]
+    },
+    "type": "primary",
+    "actionreplace": "replace",
+    "actions": {
+        "actitem": [
+            {
+                "yesno": {}
+            }
+        ]
+    },
+    "displayname": "FitScore",
+    "minCrv": "3",
+    "comments": {
+        "addcomment": "true"
+    }
+}
